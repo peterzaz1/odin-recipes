@@ -1,0 +1,29 @@
+p,
+ul,
+ol {
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.95);
+}
+h1,
+h3,
+p,
+ul,
+ol {
+  font-family: "Dm Sans", Trebuchet MS, sans-serif;
+}
+h1,
+p {
+  text-align: center;
+}
+img {
+  width: 100;
+  height: auto;
+}
+h1 ~ li {
+  text-align: center;
+}
+h1,
+h3,
+h2 {
+  color: rgb(73, 206, 73);
+}

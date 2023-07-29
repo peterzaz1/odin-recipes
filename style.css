@@ -1,0 +1,15 @@
+h1 {
+  color: rgb(68, 194, 68);
+  text-align: center;
+  font-size: 60px;
+  font-family: "Dm Sans", Trebuchet MS, sans-serif;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+img {
+  width: 300;
+  height: auto;
+}
