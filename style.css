@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 1em;
+  padding: 1em;
+}
+
 h1 {
   color: rgb(68, 194, 68);
   text-align: center;
@@ -5,11 +15,26 @@ h1 {
   font-family: "Dm Sans", Trebuchet MS, sans-serif;
 }
 ul {
-  text-align: center;
   list-style-type: none;
 }
 
 img {
   width: 300;
   height: auto;
+  margin: 1em 0.2em;
+  padding: 2px;
+  border: 2px solid rgb(73, 206, 73);
+  border-style: dashed;
+}
+.continer {
+  display: flex;
+  justify-content: center;
+  background-color: #07ff8b1a;
+  border: 2px solid lightblue;
+  box-shadow: 3px 6px lightgreen;
+}
+.recipes {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
 }
